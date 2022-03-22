@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestAplikasi'
-  s.version          = '0.0.6'
+  s.version          = '0.0.8'
   s.summary          = 'this is a test application for qr test cocoapod.'
 
 # This description is used to generate tags and improve search results.
