@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.TODO: Add long description of the pod
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TestAplikasi/**'
+  s.source_files = '**'
   
   s.resource_bundles = {
     'TestAplikasi' => ['*.xcassets']
