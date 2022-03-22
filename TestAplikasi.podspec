@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestAplikasi'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'this is a test application for qr test cocoapod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.TODO: Add long description of the pod
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TestAplikasi/*', 'TestAplikasi/**/*'
+  s.source_files = ['TestAplikasi/Classes/**']
   
   s.resource_bundles = {
-    'TestAplikasi' => ['*.xcassets']
+    'TestAplikasi' => ['Assets/*.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
