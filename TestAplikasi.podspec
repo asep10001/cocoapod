@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestAplikasi'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TestAplikasi.'
+  s.version          = '0.0.2'
+  s.summary          = 'this is a test application for qr test cocoapod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/asep agus/TestAplikasi'
+  s.homepage         = 'https://github.com/asep10001/cocoapod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asep agus' => 'out1441@astrapay.com' }
-  s.source           = { :git => 'https://github.com/asep agus/TestAplikasi.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/asep10001/cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
